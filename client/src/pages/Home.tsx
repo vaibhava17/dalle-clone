@@ -39,7 +39,14 @@ const Home = () => {
         </p>
       </div>
       <div className="mt-10">
-        <FormField />
+        <FormField
+          label="Search"
+          type="text"
+          placeholder="Search by name or prompt"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          name="search"
+        />
       </div>
       <div className="mt-10">
         {loading ? (
