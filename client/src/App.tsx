@@ -1,7 +1,6 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import routes from "./routes/routes";
-import Navbar from "./components/Navbar";
-import Wrapper from "./components/Wrapper";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Navbar, Wrapper } from "./components";
+import { routes } from "./routes";
 
 function App() {
   return (
